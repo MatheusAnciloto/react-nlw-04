@@ -47,7 +47,9 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
         if (isActive && time > 0){
             countdownTimeout = setTimeout(() => {
                 setTime(time - 1);
-            }, 1000)
+            }, 1000);
+
+          clearTimeout(countdownTimeout);
         } else if(isActive && time === 0){
             setHasFinished(true);
             setIsActive(false);
