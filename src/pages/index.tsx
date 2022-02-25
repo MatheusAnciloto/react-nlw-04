@@ -34,7 +34,7 @@ export default function Home(props: HomeProps) {
         <ExperienceBar />
 
         <CountdownProvider>
-          <section>
+          <section style={{paddingBottom: '5rem'}}>
             <div>
               <Profile />
               <CompletedChallenges />

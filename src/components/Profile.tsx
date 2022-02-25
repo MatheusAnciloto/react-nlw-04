@@ -7,9 +7,9 @@ export function Profile(){
 
     return(
         <div className={styles.profileContainer}>
-            <img src="https://github.com/MatheusAnciloto.png" alt="Matheus"/>
+            <img src="https://pbs.twimg.com/profile_images/1233910865948282881/3QHCzafs_400x400.jpg" alt="avatar"/>
             <div>
-                <strong>Matheus Anciloto</strong>
+                <strong>Você</strong>
                 <p>
                     <img src="icons/level.svg" alt="level"/>
                     Level {level}
